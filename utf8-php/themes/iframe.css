@@ -1,0 +1,28 @@
+/*可以在这里添加你自己的css*/
+img {
+    width: 70%;
+    height: 70%;
+    max-width: 480px;
+    max-height: 280px;
+}
+
+/*article,img {
+    width: 100%;
+    height: 100%;
+}*/
+
+body {
+    overflow-y: scroll !important;
+}
+.view {
+    word-break: break-all;
+}
+.vote_area {
+    display: block;
+}
+/*.vote_iframe {
+    background-color: transparent;
+    border: 0 none;
+    height: 85%;
+}*/
+#edui1_imagescale{display:none !important;}
