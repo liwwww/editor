@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--suppress ALL -->
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>text</title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<style>
+
+	.hide {
+		display: none;
+	}
+	
+	.main {
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: 100;
+		background-color: blue;
+		padding: 15px;
+	}
+	
+	.main span {
+		width: 14px;
+		height: 14px;
+		font-size: 14px;
+		line-height: 14px;
+		text-align: center;
+		color: #000;
+		background-color: #dedede;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 101;
+	}
+	
+	.main h4 {
+		text-align: center;
+		color: red;
+		
+	}
+	
+	.main a {
+		color: red;
+		text-decoration: none;
+	}
+	
+	.main p,a {
+		display: inline;
+	}
+	
+	
+	
+</style>
+
+<script>
+	window.onload=function(){
+		var b = document.getElementById("main");
+		var a = document.getElementById("cls");
+			a.onclick=function (){
+				b.className = "hide";
+			};
+	};
+</script>
+<body style="background:#FFFFFF;">
+
+		<div class="main" id="main">
+			<span id="cls">X</span>
+			<h4>公告</h4>
+			<p>说明文档下载地址:</p>
+			<a href="http://wlgxh.oss-cn-shenzhen.aliyuncs.com/Svn%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.docx
+">点击下载</a>
+		</div>
+		
+
+
+</body>
+
+</html>
